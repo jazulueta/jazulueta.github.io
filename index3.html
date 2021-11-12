@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Wangsheng News</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>  
+* {
+box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 5px;
+  text-align: center;
+  background-image:url(https://raw.githubusercontent.com/jazulueta/jazulueta.github.io/main/wfp.jpeg);
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-position: top;
+  background-attachment:scroll;
+  color: #F2D399;
+
+}
+.header h1 {
+  font-size: 60px;
+    color: #BF7154;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #BF3636;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #F2D399;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar span.right {
+  float: right;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 20px;
+}
+
+.script {
+  overflow: hidden;
+  float: right;
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+} 
+
+.navbar a:hover {
+  background-color: #F2D399;
+  color: black;
+}
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.vertical {
+  border-left: 1px white;
+  height: 1090px;
+}
+.vertical {
+  border-right: 1px white;
+  height: 1090px;
+}
+
+.side {
+  -ms-flex: 30%; 
+  flex: 30%;
+  background-color: #734949;
+  padding: 10px;
+    color: white;
+}
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: #734949;
+  padding: 20px;
+    color: white;
+}
+
+.news{
+ margin: 10px;
+ position: relative;
+ text-align: center;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  color: #F2D399;
+  background: #BF3636;
+    height: 100px
+
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Wangsheng News</h1>
+  <h2>Home</h2>
+</div>
+
+<div class="navbar">
+  <a href="https://jazulueta.github.io/">Home</a>
+  <a href="https://jazulueta.github.io/index2.html">Anime</a>
+  <a href="https://jazulueta.github.io/index3.html">Games</a>
+  <a href="https://www.merriam-webster.com/dictionary/movies">Politics</a>
+  <a href="https://www.merriam-webster.com/dictionary/politics">Movies</a> 
+  <a href="https://www.merriam-webster.com/dictionary/sports">About Us</a>
+  <span class="right">
+    <script>
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth());
+        var yyyy = today.getFullYear();
+        today = mm + '/' + dd + "/" + yyyy;
+        document.write(today);
+    </script>
+</span>
+</div>
+
+<div class="row">
+  <div class="side">
+    <div class="vertical">
+        <h1>Top News</h1>
+    <h2>PH records 1,974 more COVID-19 cases; positivity rate still below 5 pct</h2>
+        <img src="https://sa.kapamilya.com/absnews/abscbnnews/media/2021/tvpatrol/11/09/20211110-covid-cinema-opening-jc-10.jpg" length="620" width="350">
+      <p>The Philippines on Thursday announced 1,974 new COVID-19 cases, the fourth time in the last 8 days that daily infections fell below 2,000, data from the health department showed. Of the country's 2,811,248 total recorded cases, 28,660 or 1 percent were active infections, according to the latest Department of Health (DOH) bulletin.</p>
+         <a href="https://news.abs-cbn.com/news/11/11/21/ph-logs-1974-more-covid-19-cases-positivity-rate-still-below-5-pct">Read more...</a>
+      <style>
+a:link {
+  color: #FFFFFF;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #F2D399;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #F2D399;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+    <h2>Singapore officials: Lions at local wildlife park infected with coronavirus</h2>
+      <img src="https://sa.kapamilya.com/absnews/abscbnnews/media/2021/afp/11/11/20211111-singapore.jpg" length="620" width="350">
+    <p>Four lions at a Singapore wildlife park have tested positive for the coronavirus after coming into contact with infected zookeepers, and have symptoms including coughing and sneezing, officials said Wednesday. The endangered Asiatic lions started displaying signs of illness at the weekend, prompting officials to order coronavirus tests.</p>   
+    <a href="https://news.abs-cbn.com/overseas/11/12/21/lions-at-singapore-wildlife-park-infected-with-covid">Read more...</a>
+  </div>
+</div>
+
+  <div class="main">
+    <div class="vertical">
+    <h1>Hot News</h1>
+        <h2>Pokémon UNITE teases a new playable Pokémon - Decidueye</h2>
+    <div class="news"></div>
+      <img src="https://cdn1.dotesports.com/wp-content/uploads/2021/11/10055647/FDslqUiVkAIL1ht.jpg" length="930" width="525">
+    <h3>The facebook account of Pokémon UNITE might have made a mistake, and they posted the rumored new playable unit in the game, Decidueye. The Grass/Ghost-type starter was teased for the game earlier this week and was previously discovered in other data mines. But if the data pulled from UNITE’s new update by multiple sources is anything to go by, Decidueye will be added to the game on Nov. 19.</h3>
+    <a href="https://realsport101.com/nintendo/pokemon-unite-leaks-decidueye-release-date-unite-move-moveset-price/">Read More...</a>
+    <h2>Newly discovered tree species related to makopa, guava can only be found on Dinagat Island</h2>
+    <div class="news"></div>
+      <img src="https://nolisoli.ph/wp-content/uploads/2021/11/Tristaniopsis-flexuosa-leaves.png" length="620" width="350">
+    <h3>Professor Edwino S. Fernando from the University of the Philippines Los Baños (UPLB) alongside colleague Dr. Peter G. Wilson of the Australian Institute of Botanical Science made the discovery and published their findings in Telopea, a journal of plant systematics, last October.</h3>
+   <a href="https://nolisoli.ph/100548/new-tree-species-tristaniopsis-flexuosa/?utm_source=gallery&utm_medium=direct">Read More...</a>
+  </div>
+
+<div class="footer">
+  <h3>By Joseph A. Zulueta III | 9-Arayat</h3>
+</div>
+    
+    </html>
